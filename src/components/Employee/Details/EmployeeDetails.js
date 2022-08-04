@@ -31,12 +31,7 @@ const EmployeeDetails = () => {
 
     return (
         <div style={{ padding: '20px' }}>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Employee Details share</title>
-                <meta property="og:description" content="Details of employee shared" />
-                <meta property="og:image" content="https://cdni.autocarindia.com/utils/imageresizer.ashx?n=http://cms.haymarketindia.net/model/uploads/modelimages/AMG%20GTModelImage.jpg" />
-            </Helmet>
+          
 
             <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center' }}>
                 <h3>Employee Details of {details?.first_name} {details?.last_name} <BsFillCollectionFill></BsFillCollectionFill></h3>
@@ -61,7 +56,7 @@ const EmployeeDetails = () => {
 
                 <div className='social-link'>
                     <FacebookShareButton
-                        url={`https://simple-task.netlify.app/details/${id}`}
+                        url={'https://www.amazon.com/s?k=cloths&crid=32JSDY0P750ZQ&sprefix=cloths%2Caps%2C324&ref=nb_sb_noss_2'}
                         quote={"important Documents"}
                         hashtag="#EmployeeDetails"
                     >
